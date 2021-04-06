@@ -1,0 +1,12 @@
+name: stackoverflow
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas=1.1.1
+  - pip=20.2.2
+  - elasticsearch=7.0.5
+  - elasticsearch-dsl=7.0.0
+  - pip:
+    - StackApi==0.1.12
